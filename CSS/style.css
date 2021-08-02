@@ -1,0 +1,46 @@
+header
+{
+    font-size: 60px;
+     width: 900px; 
+   border: 1px solid #000000af;
+   margin: auto;
+   word-break: keep-all;
+    background-color: #2b2b2bad;
+    text-align: center 
+    
+}
+
+body {
+    background-image: url("https://i0.wp.com/getfreepoint.com/wp-content/uploads/2018/06/Questions-2017_09_28-19_17_30-UTC.jpg?resize=800%2C423&ssl=1");
+    background-color: #cccccc;
+   }
+   footer{
+      font-size: 17px;
+       width: 900px; 
+     border: 1px solid #000000af;
+     word-break: keep-all;
+     margin: auto;
+      background-color: #2b2b2bad;
+       text-align: center
+   }
+   h3{
+    font-size: 20px;
+    width: 900px; 
+  border: 1px solid #000000af;
+  word-break: keep-all;
+   background-color: #2b2b2bad;
+   margin: auto;
+   }
+   p{
+    font-size: 20px;
+     width: 900px; 
+   border: 1px solid #000000af;
+   word-break: keep-all;
+    background-color: #2b2b2bad;
+    margin: auto;
+ }
+ main{
+text-align: center;
+margin: auto;
+width: 900px;
+ }
