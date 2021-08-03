@@ -123,6 +123,55 @@ while(numberOfQuestionAnswered <= 4){
   }
 }
 question();
+
+let num = 5;
+for( let i = 1; i <= 4; i++){
+   let attempts = 4;
+   let qustion6 = prompt("qustion 6 I'm thinking of a number from 1 to 10")
+   qustion6 = parseInt(qustion6);
+   if(i < 4){
+   if( qustion6 > num){
+      alert("your guess too high")
+      attempts-=1
+      numberOfWrongAnswered-=1
+   }else if(qustion6 < num){
+    alert("your guess too low")
+    numberOfWrongAnswered-=1
+   }else if(qustion6 == 5){
+      alert("your guess is Correct")
+      attempts-=1
+      numberOfQuestionAnswered+=1
+      numberOfCorrectAnswered+=1;
+      break;
+     }
+
+      attempts-=1
+    alert('Sorry youe answer is wrong, try again, attempts left: ' + attempts );
+}else{alert("the number I'm thinking about is: "+ num)}
+
+}
+let fevcar = ['ford', 'dodge', 'mitsubishi','Lamborghini','ferrari'];
+alert("qustion 7 rules :\n1.you have 6 chances to guess\n2. Type the name of the car for guess, example: (ford)")
+for(let i = 1; i <= 6; i++){
+   let attempts = 6;
+   let chose = prompt("Guess what's my favorite car").toLowerCase();
+   for(let y = 0; y < fevcar.length; y++){
+      if(chose == fevcar[y]){
+        alert("your guess is Correct")
+        numberOfQuestionAnswered+=1
+        numberOfCorrectAnswered+=1;
+        i=7;
+        break;
+            
+         }
+      
+   }
+   attempts-=1
+    alert('Sorry youe answer is wrong, try again, attempts left: ' + attempts );
+    
+}
+alert('ford', 'dodge', 'mitsubishi','Lamborghini','ferrari');
+   
 document.write("<h3 style='color: blue'>"+ "  Yor name is  "+yourName +" and your score is:"+"</h3>");
 console.log("Number Of Question Answered"+numberOfQuestionAnswered);
 alert("you are answered:"+numberOfQuestionAnswered)
