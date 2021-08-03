@@ -24,6 +24,8 @@ while(numberOfQuestionAnswered <= 4){
    console.log("qustion 1 your answer is no")
    alert("youe answer is Wrong")
    numberOfWrongAnswered-=1
+    }else{
+      alert("Please answer with yes or no")
     }
       if(answerd1 == false){
          numberOfQuestionAnswered+=1
@@ -45,6 +47,8 @@ while(numberOfQuestionAnswered <= 4){
    console.log("qustion 2 your answer is yes")
    alert("youe answer is Wrong")
    numberOfWrongAnswered-=1
+    }else{
+      alert("Please answer with yes or no")
     }
       if(answerd2 == false){
          numberOfQuestionAnswered+=1
@@ -67,6 +71,8 @@ while(numberOfQuestionAnswered <= 4){
    alert("youe answer is Wrong")
    numberOfWrongAnswered-=1
    answerd3 = false;
+    }else{
+      alert("Please answer with yes or no")
     }
       if(answerd3 == false){
          numberOfQuestionAnswered+=1
@@ -88,7 +94,9 @@ while(numberOfQuestionAnswered <= 4){
   console.log("qustion 4 your answer is no")
   alert("your answer is Wrong")
   numberOfWrongAnswered-=1
-   }
+   }else{
+      alert("Please answer with yes or no")
+    }
       if(answerd4 == false){
          numberOfQuestionAnswered+=1
         answerd4 = true;
@@ -109,6 +117,8 @@ while(numberOfQuestionAnswered <= 4){
    console.log("qustion 5 your answer is yes")
    alert("youe answer is Wrong")
    numberOfWrongAnswered-=1
+    }else{
+      alert("Please answer with yes or no")
     }
       if(answerd5 == false){
          numberOfQuestionAnswered+=1
