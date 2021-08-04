@@ -136,6 +136,7 @@ while(numberOfQuestionAnswered <= 4){
 }
 question();
 
+function guessingQone(){
 let num = 5;
 for( let i = 1; i <= 4; i++){
    let attempts = 4;
@@ -160,8 +161,9 @@ for( let i = 1; i <= 4; i++){
       attempts-=1
     alert('Sorry youe answer is wrong, try again, attempts left: ' + attempts );
 }else{alert("the number I'm thinking about is: "+ num)}
-
 }
+}guessingQone();
+function guessingQtwo(){
 let fevcar = ['ford', 'dodge', 'mitsubishi','Lamborghini','ferrari'];
 alert("qustion 7 rules :\n1.you have 6 chances to guess\n2. Type the name of the car for guess, example: (ford)")
 for(let i = 1; i <= 6; i++){
@@ -182,6 +184,7 @@ for(let i = 1; i <= 6; i++){
     alert('Sorry youe answer is wrong, try again, attempts left: ' + attempts );
     
 }
+}guessingQtwo();
 alert('ford', 'dodge', 'mitsubishi','Lamborghini','ferrari');
    
 document.write("<h3 style='color: blue'>"+ "  Yor name is  "+yourName +" and your score is:"+"</h3>");
