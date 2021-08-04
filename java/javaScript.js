@@ -1,3 +1,5 @@
+'use strict'
+
 alert("welcome to my game")
 alert("It is how much do you know about me")
 alert("the rules of game is:\n1. Enter your name.\n2. Dont answer the same question twice. note (Because an answer will not count for you \nEnjoy the game)")
