@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 alert("welcome to my game")
 alert("It is how much do you know about me")
